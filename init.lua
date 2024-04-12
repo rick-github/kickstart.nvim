@@ -91,7 +91,9 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- Set to true if you have a Nerd Font installed
-vim.g.have_nerd_font = false
+-- TODO(frob): fetch full archive from https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#font-installation,
+--             extract and run nerd-fonts-3.2.1/install.sh.
+vim.g.have_nerd_font = true
 
 -- [[ Setting options ]]
 -- See `:help vim.opt`
